@@ -28,5 +28,5 @@ Figure 8. Logistic Regression Predictions
 Figure 9. SVM Decision Boundary
 ![image](https://github.com/user-attachments/assets/78aab529-a0ab-4302-9a65-7d04dbb19f6c)
 
-Figure 7. Use Case Diagram of the System Application
+Figure 10. Use Case Diagram of the System Application
 ![image](https://github.com/user-attachments/assets/0f6d9353-b288-4ba9-820e-901597ffe61a)
