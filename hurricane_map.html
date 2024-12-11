@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d90b823b61da859f1bca24c40e903e52 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d90b823b61da859f1bca24c40e903e52" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d90b823b61da859f1bca24c40e903e52 = L.map(
+                "map_d90b823b61da859f1bca24c40e903e52",
+                {
+                    center: [20.0, -80.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a4bbc759511e82f4d630e3245c49a9d3 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_a4bbc759511e82f4d630e3245c49a9d3.addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var marker_6961df3742ef46528b518ad90d726036 = L.marker(
+                [18.71072758007456, -82.16696893802546],
+                {}
+            ).addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var icon_8de2fd2bc95ce933b8294884e771ed54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6961df3742ef46528b518ad90d726036.setIcon(icon_8de2fd2bc95ce933b8294884e771ed54);
+        
+    
+        var popup_82c9693b72dddfbe2dcaf4d9264e774a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a549fa7dac6b4e569594155c3e3739d9 = $(`<div id="html_a549fa7dac6b4e569594155c3e3739d9" style="width: 100.0%; height: 100.0%;">Cyclone Category: Hurricane Category 1</div>`)[0];
+                popup_82c9693b72dddfbe2dcaf4d9264e774a.setContent(html_a549fa7dac6b4e569594155c3e3739d9);
+            
+        
+
+        marker_6961df3742ef46528b518ad90d726036.bindPopup(popup_82c9693b72dddfbe2dcaf4d9264e774a)
+        ;
+
+        
+    
+    
+            var marker_b3ff739cdb8ac52501d6cad203d5eb55 = L.marker(
+                [11.779145864709918, -86.72806638915301],
+                {}
+            ).addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var icon_841c22aee88bda6e693eefd295dc0cf9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b3ff739cdb8ac52501d6cad203d5eb55.setIcon(icon_841c22aee88bda6e693eefd295dc0cf9);
+        
+    
+        var popup_01eab78f15f69bfd3de5a7df51c26ffe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_146c2b5f0b3098fa7914f5eb43fb5019 = $(`<div id="html_146c2b5f0b3098fa7914f5eb43fb5019" style="width: 100.0%; height: 100.0%;">Cyclone Category: Tropical Depression</div>`)[0];
+                popup_01eab78f15f69bfd3de5a7df51c26ffe.setContent(html_146c2b5f0b3098fa7914f5eb43fb5019);
+            
+        
+
+        marker_b3ff739cdb8ac52501d6cad203d5eb55.bindPopup(popup_01eab78f15f69bfd3de5a7df51c26ffe)
+        ;
+
+        
+    
+    
+            var marker_f5a6e5a83a2e48f40dcb5ae0ad50d532 = L.marker(
+                [26.73638571422683, -81.22964347187775],
+                {}
+            ).addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var icon_c378c00b70283bd6dcb821e2b0b61b39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f5a6e5a83a2e48f40dcb5ae0ad50d532.setIcon(icon_c378c00b70283bd6dcb821e2b0b61b39);
+        
+    
+        var popup_f698d4ef8dec27dd4ad0914446b9c26b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b1bc0c19217e3a16049c29161414d55 = $(`<div id="html_2b1bc0c19217e3a16049c29161414d55" style="width: 100.0%; height: 100.0%;">Cyclone Category: Hurricane Category 2</div>`)[0];
+                popup_f698d4ef8dec27dd4ad0914446b9c26b.setContent(html_2b1bc0c19217e3a16049c29161414d55);
+            
+        
+
+        marker_f5a6e5a83a2e48f40dcb5ae0ad50d532.bindPopup(popup_f698d4ef8dec27dd4ad0914446b9c26b)
+        ;
+
+        
+    
+    
+            var marker_e651b3cdf6984418ef484753128f759a = L.marker(
+                [20.238275703460747, -77.27273420035895],
+                {}
+            ).addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var icon_826331eba36683a781085a6234e8bae3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e651b3cdf6984418ef484753128f759a.setIcon(icon_826331eba36683a781085a6234e8bae3);
+        
+    
+        var popup_c1bfe65d887727c191d98185c4c52801 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b01d4af4ae183ad53b90a5689d666036 = $(`<div id="html_b01d4af4ae183ad53b90a5689d666036" style="width: 100.0%; height: 100.0%;">Cyclone Category: Hurricane Category 2</div>`)[0];
+                popup_c1bfe65d887727c191d98185c4c52801.setContent(html_b01d4af4ae183ad53b90a5689d666036);
+            
+        
+
+        marker_e651b3cdf6984418ef484753128f759a.bindPopup(popup_c1bfe65d887727c191d98185c4c52801)
+        ;
+
+        
+    
+    
+            var marker_f8d94d78593781f834dcf2fd21c9165e = L.marker(
+                [13.77453460329949, -98.40139606464328],
+                {}
+            ).addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var icon_ee88fbca48d47d1e019f420f9c0c3956 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f8d94d78593781f834dcf2fd21c9165e.setIcon(icon_ee88fbca48d47d1e019f420f9c0c3956);
+        
+    
+        var popup_90a56183004493743854c3a1eaa6320b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e90e61a9463facdcfc381358ea81b7cd = $(`<div id="html_e90e61a9463facdcfc381358ea81b7cd" style="width: 100.0%; height: 100.0%;">Cyclone Category: Hurricane Category 3</div>`)[0];
+                popup_90a56183004493743854c3a1eaa6320b.setContent(html_e90e61a9463facdcfc381358ea81b7cd);
+            
+        
+
+        marker_f8d94d78593781f834dcf2fd21c9165e.bindPopup(popup_90a56183004493743854c3a1eaa6320b)
+        ;
+
+        
+    
+    
+            var marker_cd941c8869fc2ec801395c7f68420116 = L.marker(
+                [19.09197122758102, -78.61290250872713],
+                {}
+            ).addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var icon_cb54108fed4d61dafeffd652db1885fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cd941c8869fc2ec801395c7f68420116.setIcon(icon_cb54108fed4d61dafeffd652db1885fe);
+        
+    
+        var popup_e3708818a54ca9b560bf51d7dae33ebf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb5f13f2fab73e88505cb446bf623dc8 = $(`<div id="html_eb5f13f2fab73e88505cb446bf623dc8" style="width: 100.0%; height: 100.0%;">Cyclone Category: Hurricane Category 4</div>`)[0];
+                popup_e3708818a54ca9b560bf51d7dae33ebf.setContent(html_eb5f13f2fab73e88505cb446bf623dc8);
+            
+        
+
+        marker_cd941c8869fc2ec801395c7f68420116.bindPopup(popup_e3708818a54ca9b560bf51d7dae33ebf)
+        ;
+
+        
+    
+    
+            var marker_51f95e40633a7e95f54f39cfb50f816e = L.marker(
+                [23.02065860149084, -80.43165238939586],
+                {}
+            ).addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var icon_c20cf3d4febc9394adfda6dd6f6f63a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_51f95e40633a7e95f54f39cfb50f816e.setIcon(icon_c20cf3d4febc9394adfda6dd6f6f63a0);
+        
+    
+        var popup_59988109b40b8241da5c32f0fe188f52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27429c368596b9c079d4bd1a0def86c1 = $(`<div id="html_27429c368596b9c079d4bd1a0def86c1" style="width: 100.0%; height: 100.0%;">Cyclone Category: Hurricane Category 1</div>`)[0];
+                popup_59988109b40b8241da5c32f0fe188f52.setContent(html_27429c368596b9c079d4bd1a0def86c1);
+            
+        
+
+        marker_51f95e40633a7e95f54f39cfb50f816e.bindPopup(popup_59988109b40b8241da5c32f0fe188f52)
+        ;
+
+        
+    
+    
+            var marker_fba365771ccda0a0a4d31b9a70caa3fa = L.marker(
+                [16.710387710475725, -70.906529352137],
+                {}
+            ).addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var icon_ce529a8690d0e438a77ae34aac2a7a2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fba365771ccda0a0a4d31b9a70caa3fa.setIcon(icon_ce529a8690d0e438a77ae34aac2a7a2b);
+        
+    
+        var popup_63e443e8ae1cfa82b3ecba5513c4586c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f4e4411bf65de059d79303c6c4a48fe = $(`<div id="html_0f4e4411bf65de059d79303c6c4a48fe" style="width: 100.0%; height: 100.0%;">Cyclone Category: Hurricane Category 4</div>`)[0];
+                popup_63e443e8ae1cfa82b3ecba5513c4586c.setContent(html_0f4e4411bf65de059d79303c6c4a48fe);
+            
+        
+
+        marker_fba365771ccda0a0a4d31b9a70caa3fa.bindPopup(popup_63e443e8ae1cfa82b3ecba5513c4586c)
+        ;
+
+        
+    
+    
+            var marker_9f25db553c1483afe4f4d8a58fbc8f19 = L.marker(
+                [10.950659855502511, -87.34455326126204],
+                {}
+            ).addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var icon_47d49f3fc895f08010c02ee8675e0307 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9f25db553c1483afe4f4d8a58fbc8f19.setIcon(icon_47d49f3fc895f08010c02ee8675e0307);
+        
+    
+        var popup_d5ccd8f941e6d58f683c6f988d18b38e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9b8bd6f61fa37a811e5bb988450c28d = $(`<div id="html_e9b8bd6f61fa37a811e5bb988450c28d" style="width: 100.0%; height: 100.0%;">Cyclone Category: Tropical Storm</div>`)[0];
+                popup_d5ccd8f941e6d58f683c6f988d18b38e.setContent(html_e9b8bd6f61fa37a811e5bb988450c28d);
+            
+        
+
+        marker_9f25db553c1483afe4f4d8a58fbc8f19.bindPopup(popup_d5ccd8f941e6d58f683c6f988d18b38e)
+        ;
+
+        
+    
+    
+            var marker_777722e32a4783bef85032b57ce951e4 = L.marker(
+                [23.502610861169096, -82.18004439378618],
+                {}
+            ).addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var icon_6e546c6fb33e8dfd0c8f9dcae406c744 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_777722e32a4783bef85032b57ce951e4.setIcon(icon_6e546c6fb33e8dfd0c8f9dcae406c744);
+        
+    
+        var popup_a74fb57db5b18198ad0d4815f90d9588 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08ca21c53eab41fd8675e1e96f1f9561 = $(`<div id="html_08ca21c53eab41fd8675e1e96f1f9561" style="width: 100.0%; height: 100.0%;">Cyclone Category: Hurricane Category 3</div>`)[0];
+                popup_a74fb57db5b18198ad0d4815f90d9588.setContent(html_08ca21c53eab41fd8675e1e96f1f9561);
+            
+        
+
+        marker_777722e32a4783bef85032b57ce951e4.bindPopup(popup_a74fb57db5b18198ad0d4815f90d9588)
+        ;
+
+        
+    
+    
+            var marker_91244445e8e19c07b96990dc5f4bbc39 = L.marker(
+                [14.913228928940995, -95.30234562797726],
+                {}
+            ).addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var icon_ed3fcd93b78ca2f5ca6ce3f0c4f8efd7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_91244445e8e19c07b96990dc5f4bbc39.setIcon(icon_ed3fcd93b78ca2f5ca6ce3f0c4f8efd7);
+        
+    
+        var popup_2fb5c59b0c62e0ca7f178eebb74aaa1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f787f0c6d10a5da0233bc30a69078f7 = $(`<div id="html_5f787f0c6d10a5da0233bc30a69078f7" style="width: 100.0%; height: 100.0%;">Cyclone Category: Hurricane Category 3</div>`)[0];
+                popup_2fb5c59b0c62e0ca7f178eebb74aaa1a.setContent(html_5f787f0c6d10a5da0233bc30a69078f7);
+            
+        
+
+        marker_91244445e8e19c07b96990dc5f4bbc39.bindPopup(popup_2fb5c59b0c62e0ca7f178eebb74aaa1a)
+        ;
+
+        
+    
+    
+            var marker_22f5ad29db294bac9ba7c07564b929ea = L.marker(
+                [17.43077833192956, -69.510652848738],
+                {}
+            ).addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var icon_625afb9b662c531de87e5f4a75acd6f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_22f5ad29db294bac9ba7c07564b929ea.setIcon(icon_625afb9b662c531de87e5f4a75acd6f4);
+        
+    
+        var popup_a8bfca145398fd0285615b951daa5994 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5f7c2bd811daec93a9e7081fb2f9c8f = $(`<div id="html_a5f7c2bd811daec93a9e7081fb2f9c8f" style="width: 100.0%; height: 100.0%;">Cyclone Category: Tropical Storm</div>`)[0];
+                popup_a8bfca145398fd0285615b951daa5994.setContent(html_a5f7c2bd811daec93a9e7081fb2f9c8f);
+            
+        
+
+        marker_22f5ad29db294bac9ba7c07564b929ea.bindPopup(popup_a8bfca145398fd0285615b951daa5994)
+        ;
+
+        
+    
+    
+            var marker_53a76ba10e36760d64996bd71684f308 = L.marker(
+                [14.950417987008567, -86.94395131100805],
+                {}
+            ).addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var icon_2ab2a07b8be4a06ecc8f1d03b183f5b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_53a76ba10e36760d64996bd71684f308.setIcon(icon_2ab2a07b8be4a06ecc8f1d03b183f5b7);
+        
+    
+        var popup_6a690112e094de7ea69d5780daaf12d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7dcb9eb45bd41217025f904a157794fe = $(`<div id="html_7dcb9eb45bd41217025f904a157794fe" style="width: 100.0%; height: 100.0%;">Cyclone Category: Hurricane Category 4</div>`)[0];
+                popup_6a690112e094de7ea69d5780daaf12d4.setContent(html_7dcb9eb45bd41217025f904a157794fe);
+            
+        
+
+        marker_53a76ba10e36760d64996bd71684f308.bindPopup(popup_6a690112e094de7ea69d5780daaf12d4)
+        ;
+
+        
+    
+    
+            var marker_196629b6d697a1c8b3c6b654dd1d670f = L.marker(
+                [16.25725037908117, -87.03523828907846],
+                {}
+            ).addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var icon_2adfbed967f4e55aa51ed63864dc2744 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_196629b6d697a1c8b3c6b654dd1d670f.setIcon(icon_2adfbed967f4e55aa51ed63864dc2744);
+        
+    
+        var popup_84915601e648b023ea7d0dbec7be4346 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f68e3b200476d8630c49a7b39e90c96 = $(`<div id="html_3f68e3b200476d8630c49a7b39e90c96" style="width: 100.0%; height: 100.0%;">Cyclone Category: Tropical Storm</div>`)[0];
+                popup_84915601e648b023ea7d0dbec7be4346.setContent(html_3f68e3b200476d8630c49a7b39e90c96);
+            
+        
+
+        marker_196629b6d697a1c8b3c6b654dd1d670f.bindPopup(popup_84915601e648b023ea7d0dbec7be4346)
+        ;
+
+        
+    
+    
+            var marker_8ac471ba9a8c44aef7c958db9b726447 = L.marker(
+                [21.97884985381768, -86.15632022787638],
+                {}
+            ).addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var icon_66c3b90aa154c22fc4b09d6ff9c7ef62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8ac471ba9a8c44aef7c958db9b726447.setIcon(icon_66c3b90aa154c22fc4b09d6ff9c7ef62);
+        
+    
+        var popup_731e9c8e686edea42f4642ffc4177f00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e434a1bb602d10cc44ebea3d2410c84 = $(`<div id="html_4e434a1bb602d10cc44ebea3d2410c84" style="width: 100.0%; height: 100.0%;">Cyclone Category: Tropical Depression</div>`)[0];
+                popup_731e9c8e686edea42f4642ffc4177f00.setContent(html_4e434a1bb602d10cc44ebea3d2410c84);
+            
+        
+
+        marker_8ac471ba9a8c44aef7c958db9b726447.bindPopup(popup_731e9c8e686edea42f4642ffc4177f00)
+        ;
+
+        
+    
+    
+            var marker_ec3acc07f58686f0da372203a1fe4fa8 = L.marker(
+                [10.411438994994649, -73.31325512684558],
+                {}
+            ).addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var icon_29a55cb16f8e0446202014dbe17012c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ec3acc07f58686f0da372203a1fe4fa8.setIcon(icon_29a55cb16f8e0446202014dbe17012c8);
+        
+    
+        var popup_6bf5d11fb1d9623fab5ba3743bba3011 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7524441439290d79764ce4bf5f83b7c6 = $(`<div id="html_7524441439290d79764ce4bf5f83b7c6" style="width: 100.0%; height: 100.0%;">Cyclone Category: Tropical Storm</div>`)[0];
+                popup_6bf5d11fb1d9623fab5ba3743bba3011.setContent(html_7524441439290d79764ce4bf5f83b7c6);
+            
+        
+
+        marker_ec3acc07f58686f0da372203a1fe4fa8.bindPopup(popup_6bf5d11fb1d9623fab5ba3743bba3011)
+        ;
+
+        
+    
+    
+            var marker_09f5ecd20896b042e5b27d41ba2c3bd6 = L.marker(
+                [26.06849341456549, -70.79325720417278],
+                {}
+            ).addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var icon_439c7e59a19ba8f593f520686ff56e0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_09f5ecd20896b042e5b27d41ba2c3bd6.setIcon(icon_439c7e59a19ba8f593f520686ff56e0f);
+        
+    
+        var popup_cf404147e2a574ac9c095c823fa6fbbb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5253936cab32b90d262261aa4faf1d5 = $(`<div id="html_c5253936cab32b90d262261aa4faf1d5" style="width: 100.0%; height: 100.0%;">Cyclone Category: Hurricane Category 4</div>`)[0];
+                popup_cf404147e2a574ac9c095c823fa6fbbb.setContent(html_c5253936cab32b90d262261aa4faf1d5);
+            
+        
+
+        marker_09f5ecd20896b042e5b27d41ba2c3bd6.bindPopup(popup_cf404147e2a574ac9c095c823fa6fbbb)
+        ;
+
+        
+    
+    
+            var marker_9a66b0aca2c0d09d532bfb19f2751bdc = L.marker(
+                [27.981670092737605, -92.66818745861474],
+                {}
+            ).addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var icon_7c098c250fab0087926db83b2d52c0ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9a66b0aca2c0d09d532bfb19f2751bdc.setIcon(icon_7c098c250fab0087926db83b2d52c0ff);
+        
+    
+        var popup_92d7e183f47f2066643267b94bb3df66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e7bce363b684b0dbc9f9b64eb0bd675 = $(`<div id="html_9e7bce363b684b0dbc9f9b64eb0bd675" style="width: 100.0%; height: 100.0%;">Cyclone Category: Tropical Depression</div>`)[0];
+                popup_92d7e183f47f2066643267b94bb3df66.setContent(html_9e7bce363b684b0dbc9f9b64eb0bd675);
+            
+        
+
+        marker_9a66b0aca2c0d09d532bfb19f2751bdc.bindPopup(popup_92d7e183f47f2066643267b94bb3df66)
+        ;
+
+        
+    
+    
+            var marker_677c877d7ed0d2f57a8f053c6e186b31 = L.marker(
+                [27.18630095330665, -65.2505056067522],
+                {}
+            ).addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var icon_78693f3be53e53c6d9fb60c26b2aa531 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_677c877d7ed0d2f57a8f053c6e186b31.setIcon(icon_78693f3be53e53c6d9fb60c26b2aa531);
+        
+    
+        var popup_2b29f6ffd9fe1186f2323cbf5c056bad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d1bc6ce3b29171e664e19dfe5a2ca7a = $(`<div id="html_4d1bc6ce3b29171e664e19dfe5a2ca7a" style="width: 100.0%; height: 100.0%;">Cyclone Category: Hurricane Category 1</div>`)[0];
+                popup_2b29f6ffd9fe1186f2323cbf5c056bad.setContent(html_4d1bc6ce3b29171e664e19dfe5a2ca7a);
+            
+        
+
+        marker_677c877d7ed0d2f57a8f053c6e186b31.bindPopup(popup_2b29f6ffd9fe1186f2323cbf5c056bad)
+        ;
+
+        
+    
+    
+            var marker_54aa1f341f5e51c37194262fa918d27a = L.marker(
+                [15.9024580738369, -91.61739822487225],
+                {}
+            ).addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var icon_5700332b1e6f29a73c1de4a9e4785db8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_54aa1f341f5e51c37194262fa918d27a.setIcon(icon_5700332b1e6f29a73c1de4a9e4785db8);
+        
+    
+        var popup_cd2bf82615b9077c3c281a6ddf6f7713 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ae739319a6cf47aec83be43690f6bed = $(`<div id="html_5ae739319a6cf47aec83be43690f6bed" style="width: 100.0%; height: 100.0%;">Cyclone Category: Hurricane Category 4</div>`)[0];
+                popup_cd2bf82615b9077c3c281a6ddf6f7713.setContent(html_5ae739319a6cf47aec83be43690f6bed);
+            
+        
+
+        marker_54aa1f341f5e51c37194262fa918d27a.bindPopup(popup_cd2bf82615b9077c3c281a6ddf6f7713)
+        ;
+
+        
+    
+    
+            var marker_a84eae0612035abbae7bfc4bbc3c527f = L.marker(
+                [18.51222682108405, -63.88887703480194],
+                {}
+            ).addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var icon_e4b10865a3f55be29997ff936bc684ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a84eae0612035abbae7bfc4bbc3c527f.setIcon(icon_e4b10865a3f55be29997ff936bc684ab);
+        
+    
+        var popup_65fe1992b998221d5b8066ce96e3db77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d6d43639fc98ec43d7e0eece476f990 = $(`<div id="html_9d6d43639fc98ec43d7e0eece476f990" style="width: 100.0%; height: 100.0%;">Cyclone Category: Hurricane Category 2</div>`)[0];
+                popup_65fe1992b998221d5b8066ce96e3db77.setContent(html_9d6d43639fc98ec43d7e0eece476f990);
+            
+        
+
+        marker_a84eae0612035abbae7bfc4bbc3c527f.bindPopup(popup_65fe1992b998221d5b8066ce96e3db77)
+        ;
+
+        
+    
+    
+            var marker_9360bea913e3b3acaed45dd99dfd21ef = L.marker(
+                [21.80390145681676, -72.0345955925153],
+                {}
+            ).addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var icon_f5226769336fd4568df3f0e385ec4ea5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9360bea913e3b3acaed45dd99dfd21ef.setIcon(icon_f5226769336fd4568df3f0e385ec4ea5);
+        
+    
+        var popup_dd21fc574621ee03c78b95c96fbfb456 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84cb1a2d844f695f2709130d67c7e5a8 = $(`<div id="html_84cb1a2d844f695f2709130d67c7e5a8" style="width: 100.0%; height: 100.0%;">Cyclone Category: Hurricane Category 4</div>`)[0];
+                popup_dd21fc574621ee03c78b95c96fbfb456.setContent(html_84cb1a2d844f695f2709130d67c7e5a8);
+            
+        
+
+        marker_9360bea913e3b3acaed45dd99dfd21ef.bindPopup(popup_dd21fc574621ee03c78b95c96fbfb456)
+        ;
+
+        
+    
+    
+            var marker_f1ee398cb0987f896e1812e788adead5 = L.marker(
+                [11.600027174922198, -96.31665814247076],
+                {}
+            ).addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var icon_7a7f95b070e5c2f5896f274713797d92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f1ee398cb0987f896e1812e788adead5.setIcon(icon_7a7f95b070e5c2f5896f274713797d92);
+        
+    
+        var popup_ee12aca65c48f5b8de4581a73fbcdbc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bd42df6190def6e339273e8a5960937 = $(`<div id="html_5bd42df6190def6e339273e8a5960937" style="width: 100.0%; height: 100.0%;">Cyclone Category: Hurricane Category 5</div>`)[0];
+                popup_ee12aca65c48f5b8de4581a73fbcdbc7.setContent(html_5bd42df6190def6e339273e8a5960937);
+            
+        
+
+        marker_f1ee398cb0987f896e1812e788adead5.bindPopup(popup_ee12aca65c48f5b8de4581a73fbcdbc7)
+        ;
+
+        
+    
+    
+            var marker_281f552043cfff918f77a4e2757b3e13 = L.marker(
+                [11.35039274350202, -93.68833041180044],
+                {}
+            ).addTo(map_d90b823b61da859f1bca24c40e903e52);
+        
+    
+            var icon_0ebb38baa4dea4718eae006df68958ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_281f552043cfff918f77a4e2757b3e13.setIcon(icon_0ebb38baa4dea4718eae006df68958ac);
+        
+    
+        var popup_19662dfbb01a00873cf8eb6a19177f4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ebed984893b80a02d82c171bce7d897 = $(`<div id="html_1ebed984893b80a02d82c171bce7d897" style="width: 100.0%; height: 100.0%;">Cyclone Category: Tropical Storm</div>`)[0];
+                popup_19662dfbb01a00873cf8eb6a19177f4a.setContent(html_1ebed984893b80a02d82c171bce7d897);
+            
+        
+
+        marker_281f552043cfff918f77a4e2757b3e13.bindPopup(popup_19662dfbb01a00873cf8eb6a19177f4a)
+        ;
+
+        
+    
+</script>
+</html>
